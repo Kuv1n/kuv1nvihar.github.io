@@ -8,16 +8,16 @@ body {
 
 .linkek {
     letter-spacing: 3px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.6em;
-    background-color: #ea5911;
+    background-color: black;
     padding: 50px;
     text-align: center;
     word-spacing: 4.5em;
 }
 
 a {
-    color: black;
+    color: #ea5911;
     text-decoration: none;
     font-weight: bold;
     display: inline-block;
@@ -50,7 +50,7 @@ a {
 
 
 .torzs {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 2em;
     background-color: rgba(7, 7, 7, 0.849);
     padding: 2em;
@@ -290,6 +290,42 @@ svg {
         transform: scale(1.1);
 
     }
+
+    .palya {
+        width: 200px;
+        height: 100px;
+    }
+
+    .stuff {
+        width: 200px;
+        height: 100px;
+    }
+
+
+    .card img {
+        width: auto;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card h2 {
+        letter-spacing: 0em;
+    }
+
+}
+
+@media only screen and (max-width:380px) {
+    .gallery img {
+        transition: transform 1s, filter 0.2s ease-in-out;
+        filter: brightness(100%);
+        width: 250px;
+        height: 160px;
+        margin: 20px;
+    }
+
+
 
     .palya {
         width: 200px;
