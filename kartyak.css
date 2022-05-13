@@ -5,7 +5,9 @@
 }
 
 h2 {
-    letter-spacing: 0.4em;
+    letter-spacing: 0.3em;
+    bottom: .6em;
+
 }
 
 *,
@@ -14,13 +16,7 @@ h2 {
     box-sizing: border-box;
 }
 
-body {
-    display: grid;
 
-    background: var(--clr-netural-900);
-
-
-}
 
 .card {
     margin-left: 40px;
@@ -28,7 +24,7 @@ body {
     color: var(--clr-netural-100);
     background-size: cover;
     padding: 10rem 0 0;
-    max-width: 40ch;
+    width: 40ch;
     border-radius: 0.4rem;
     overflow: hidden;
 
