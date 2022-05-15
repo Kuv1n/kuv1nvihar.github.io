@@ -5,23 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/a02080c4c6.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
     <title>Viharsarki Vitézek</title>
 </head>
-<body>
+<body data-barba="wrapper">
+    <div class="load-container">
+        <div class="loading-screen"></div>
+    </div>
+    
     <header>
-    <div class="linkek">
-    <a href="index.html">Edzések</a>
-    <a href="kapcs.html">Kapcsolat</a>
-    <a href="info.html">Infó</a>
-    <a href="tort.html">Történetünk</a>
-    <a href="kártyák.html">Játékosaink</a>
+        <div class="linkek">
+            <a href="index.html">Főoldal</a>
+            <a href="index.html">Edzések</a>
+            <a href="kapcs.html">Kapcsolat</a>
+            <a href="info.html">Infó</a>
+            <a href="tort.html">Történetünk</a>
+            <a href="kártyák.html">Játékosaink</a>
+            
+        </div>
+    </header>
+    
+    <main data-barba="container" data-barba-namespace="home-section">
+    <link rel="stylesheet" href="style.css">
 
-</div>
-</header>
-
-<div class="torzs">
+    <div class="torzs">
     <h2>Ha szeretnéd velünk felvenni a kapcsolatot:</h2>
     <ul>
        Email: <div class="email">info@viharsarkivitezek.hu</div> 
@@ -46,5 +53,11 @@
 
   </footer>
 </div>
+
+</main>
 </body>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+    <script src="main.js"></script>
 </html>
