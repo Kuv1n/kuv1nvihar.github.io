@@ -376,7 +376,9 @@ svg {
 
 }
 
-@media only screen and (max-width:380px) {
+@media only screen and (max-width:380px),
+(pointer:none),
+(pointer:coarse) {
     .gallery img {
         transition: transform 1s, filter 0.2s ease-in-out;
         filter: brightness(100%);
@@ -414,7 +416,9 @@ svg {
 
 }
 
-@media only screen and (max-width:350px) {
+@media only screen and (max-width:350px),
+(pointer:none),
+(pointer:coarse) {
     .gallery img {
         transition: transform 1s, filter 0.2s ease-in-out;
         filter: brightness(100%);
@@ -452,7 +456,9 @@ svg {
 
 }
 
-@media only screen and (max-width:320px) {
+@media only screen and (max-width:320px),
+(pointer:none),
+(pointer:coarse) {
     .gallery img {
         transition: transform 1s, filter 0.2s ease-in-out;
         filter: brightness(100%);
@@ -482,7 +488,9 @@ svg {
     }
 }
 
-@media only screen and (max-width:290px) {
+@media only screen and (max-width:290px),
+(pointer:none),
+(pointer:coarse) {
     .gallery img {
         transition: transform 1s, filter 0.2s ease-in-out;
         filter: brightness(100%);
