@@ -210,6 +210,12 @@ svg {
 
     }
 
+    .fokep img {
+        place-items: center;
+        width: 100%;
+
+    }
+
 }
 
 @media only screen and (max-width:1310px) {
@@ -226,6 +232,12 @@ svg {
 
     }
 
+    .fokep img {
+        place-items: center;
+        width: 100%;
+
+    }
+
 
 
 }
@@ -235,6 +247,12 @@ svg {
     .felirat {
         width: 70%;
         height: 70%;
+
+    }
+
+    .fokep img {
+        place-items: center;
+        width: 100%;
 
     }
 
@@ -269,6 +287,12 @@ svg {
 
     }
 
+    .fokep img {
+        place-items: center;
+        width: 100%;
+
+    }
+
 }
 
 
@@ -295,10 +319,13 @@ svg {
         margin: 0;
     }
 
-    .felirat {
-        width: 600px;
-        height: 300px;
+    .fokep img {
+        place-items: center;
+        width: 100%;
+
     }
+
+
 }
 
 @media only screen and (max-width:600px) {
@@ -325,6 +352,12 @@ svg {
     .stuff {
         width: 200px;
         height: 100px;
+    }
+
+    .fokep img {
+        place-items: center;
+        width: 100%;
+
     }
 }
 
@@ -374,6 +407,12 @@ svg {
         display: none !important;
     }
 
+    .fokep img {
+        place-items: center;
+        width: 100%;
+
+    }
+
 }
 
 @media only screen and (max-width:380px),
@@ -414,6 +453,12 @@ svg {
         letter-spacing: 0em;
     }
 
+    .fokep img {
+        place-items: center;
+        width: 100%;
+
+    }
+
 }
 
 @media only screen and (max-width:350px),
@@ -452,6 +497,12 @@ svg {
         width: auto;
     }
 
+    .fokep img {
+        place-items: center;
+        width: 100%;
+
+    }
+
 
 
 }
@@ -485,6 +536,12 @@ svg {
 
     .card img {
         width: auto;
+    }
+
+    .fokep img {
+        place-items: center;
+        width: 100%;
+
     }
 }
 
@@ -534,6 +591,12 @@ svg {
 
     .card img {
         width: auto;
+    }
+
+    .fokep img {
+        place-items: center;
+        width: 100%;
+
     }
 
 
