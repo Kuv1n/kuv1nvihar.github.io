@@ -6,30 +6,20 @@ body {
     scroll-behavior: smooth;
 }
 
-.loading-screen {
-    position: relative;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    background-image: url(img/anim2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
-    width: 0%;
-    height: 100%;
+footer {
+    background-color: rgba(7, 7, 7, 0.925);
+    margin: 2em;
 }
 
-.load-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    z-index: 10;
-    pointer-events: none;
+footer img {
+    text-align: center;
+    width: 500px;
+    height: 300px;
+    padding: 4rem;
+
 }
+
+
 
 .linkek {
     letter-spacing: 5px;
@@ -163,19 +153,12 @@ svg {
 
 }
 
-
-
-
 .kapcs svg:hover {
     fill: #ea5911;
     transform: scale(1.2);
 
 
 }
-
-
-
-
 
 .tori p {
     line-height: 2em;
@@ -221,17 +204,8 @@ svg {
 
 @media only screen and (max-width:1310px) {
 
-    .kapcs {
-        display: grid;
-        grid-template-columns: 1fr;
-        place-items: center;
 
-    }
 
-    svg {
-        margin-top: 20px;
-
-    }
 
     .fokep img {
         place-items: center;
@@ -306,6 +280,8 @@ svg {
 
     }
 
+
+
     .palya {
         width: 400px;
         height: 250px;
@@ -338,6 +314,13 @@ svg {
         margin: 20px;
     }
 
+    .kapcs {
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+
+    }
+
     .gallery img:hover {
 
         margin: auto;
@@ -359,6 +342,12 @@ svg {
         place-items: center;
         width: 70%;
 
+    }
+
+
+    footer img {
+        width: 300px;
+        height: 200px;
     }
 }
 
@@ -458,6 +447,18 @@ svg {
         place-items: center;
         width: 70%;
 
+    }
+
+
+
+}
+
+@media only screen and (max-width:380px),
+(pointer:none),
+(pointer:coarse) {
+
+    footer {
+        display: none;
     }
 
 }
