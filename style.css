@@ -553,8 +553,8 @@ svg {
     .gallery img {
         transition: transform 1s, filter 0.2s ease-in-out;
         filter: brightness(100%);
-        width: 150px;
-        height: 90px;
+        width: 165px;
+        height: 105px;
         margin-bottom: 20px;
 
     }
