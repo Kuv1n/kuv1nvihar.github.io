@@ -39,3 +39,20 @@
     });
 
 }(jQuery));
+
+
+function seeMore() {
+    document.getElementById('more').style.display = 'inline'
+    document.getElementById('button').style.display = 'none'
+}
+
+function seeMoreReverse() {
+    document.getElementById('more', 'button2').style.display = 'none'
+    document.getElementById('button').style.display = 'inline'
+
+}
+
+window.addEventListener("scroll", function () {
+    var header = document.querySelector("header");
+    header.classList.toggle("sticky", this.window.scrollY > 0)
+})

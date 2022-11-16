@@ -4,20 +4,27 @@ body {
     background-size: cover;
     background-attachment: fixed;
     scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
 }
 
-footer {
-    background-color: rgba(7, 7, 7, 0.925);
-    margin: 2em;
-}
 
-footer img {
+
+.botton_logo {
     text-align: center;
     width: 500px;
     height: 300px;
     padding: 4rem;
+    margin-left: auto;
+    margin-right: auto;
 
 }
+
+.felszereles {
+    line-height: 3em;
+    list-style: none;
+}
+
 
 
 
@@ -29,6 +36,9 @@ footer img {
     padding: 50px;
     text-align: center;
     word-spacing: 4.5em;
+    position: sticky !important;
+    top: 0;
+
 }
 
 a {
@@ -89,7 +99,7 @@ h1 {
 
 .fokep img {
     place-items: center;
-    width: 50%;
+    width: 70%;
     height: 50%;
 
 }
@@ -147,10 +157,17 @@ svg {
 
 
 .kapcs {
+    margin-top: 5em;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     place-items: center;
 
+}
+
+.email_phone {
+    list-style: none;
+    line-height: 30px;
+    font-size: 1.3em;
 }
 
 .kapcs svg:hover {
@@ -161,7 +178,9 @@ svg {
 }
 
 .tori p {
+    padding: 1.5em;
     line-height: 2em;
+    text-align: justify;
 }
 
 .lista {
@@ -383,7 +402,7 @@ svg {
     }
 
 
-    footer img {
+    .botton_logo {
         width: 300px;
         height: 200px;
     }
@@ -495,7 +514,7 @@ svg {
 (pointer:none),
 (pointer:coarse) {
 
-    footer {
+    .botton_logo {
         display: none;
     }
 

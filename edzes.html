@@ -14,13 +14,14 @@
     
     <header>
       <div class="linkek">
-        
+        <nav>
         <a href="index.html">Főoldal</a>
         <a href="edzes.html">Edzések</a>
         <a href="kapcs.html">Kapcsolat</a>
         <a href="info.html">Infó</a>
         <a href="tort.html">Történetünk</a>
     <a href="kártyák.html">Játékosaink</a>
+  </nav>
 
   </div>
 </header>
@@ -30,11 +31,12 @@
 
 <div class="torzs" >
   <div class="ido">
-    <h2>Edzések időpontjai:</h2>
-    
+    <h2>Edzések időpontjai</h2>
+      <div id="dates">
         <ul>Kedd: 19:00, 5700 Gyula, Nürnbergi utca 2. (5. Számú Általános Iskola és Sportiskola)</ul>
     
         <ul>Csütörtök: 19:00, 5700 Gyula, Nürnbergi utca 2. (5. Számú Általános Iskola és Sportiskola)</ul>
+      </div>
       </div>
 
         <h2>Galéria:</h2>
@@ -305,6 +307,7 @@
          
           </div>
         </div>
+        <center><img class="botton_logo" src="img/VV_felirat_feher.png" alt="none" title="Logó"></center>
        
 </div>
 
@@ -313,9 +316,9 @@
 
 
 </body>
-<footer>
-  <center><img  class="fologo" src="img/VV_felirat_feher.png" alt="none" title="Logó"></center>
-</footer>
+
+
+
 
 <script>
   function openModal() {
@@ -353,6 +356,20 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
+}
+
+
+function workDates() {
+ document.getElementById('dates').style.display = 'block'
+ document.getElementById('down').style.display = 'none'
+ document.getElementById('up').style.display = 'flex'
+}
+
+function dateReverse() {
+  document.getElementById('dates').style.display = 'none'
+  document.getElementById('down').style.display = 'flex'
+ document.getElementById('up').style.display = 'none'
+
 }
 </script>
 </html>
