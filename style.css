@@ -1,5 +1,5 @@
 body {
-    background-image: url(img/amerikai.jpg);
+    background-image: url(img/amerikai1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -28,7 +28,7 @@ body {
 
 
 
-.linkek {
+nav {
     letter-spacing: 5px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.6em;
@@ -49,12 +49,12 @@ a {
     position: relative;
 }
 
-.linkek a:hover {
+nav a:hover {
     color: white;
 
 }
 
-.linkek a::after {
+nav a::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -67,7 +67,7 @@ a {
     transition: transform 0.25s ease-out;
 }
 
-.linkek a:hover::after {
+nav a:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
 
@@ -77,7 +77,6 @@ a {
 .torzs {
     font-family: Arial, Helvetica, sans-serif;
     margin: 2em;
-    background-color: rgba(7, 7, 7, 0.925);
     padding: 2em;
     color: white;
 
@@ -89,6 +88,17 @@ h1 {
     word-spacing: .5em;
 }
 
+h2[a] {
+    text-align: center;
+    font-size: 2.1em;
+    margin: 0 0 100px 0;
+}
+
+h2[b] {
+    text-align: center;
+    font-size: 2.1em;
+    margin: 75px 0 100px 0;
+}
 
 .gallery {
     display: grid;
@@ -185,13 +195,20 @@ svg {
 
 .lista {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 50px;
     place-items: center;
 }
 
+
 .felt {
     text-align: center;
+}
+
+@media only screen and (max-width:1540px) {
+    .lista {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media only screen and (max-width:1470px) {
@@ -330,7 +347,7 @@ svg {
 
 @media only screen and (max-width:750px) {
 
-    .linkek {
+    nav {
         display: grid;
         grid-template-columns: 1fr;
         place-items: center;
@@ -635,7 +652,7 @@ svg {
         font-size: 0.7em;
     }
 
-    .linkek {
+    nav {
         font-size: 1.4em;
     }
 
