@@ -33,15 +33,59 @@ h2 {
 }
 
 .card[a] {
-
-    background-image: url(img/gyuri.jpg);
-
+    background-image: url(img/profilkep/gyuri.jpg);
 }
 
 .card[b] {
+    background-image: url(img/profilkep/Szigetvári\ Kevin.jpg);
+}
 
-    background-image: url(img/Balatoni.jpg);
+.card[d] {
+    background-image: url(img/profilkep/Morár\ Józsi.jpg);
+}
 
+.card[e] {
+    background-image: url(img/profilkep/Névtelen.png);
+}
+
+.card[f] {
+    background-image: url(img/profilkep/Névtelen.png);
+}
+
+.card[g] {
+    background-image: url(img/profilkep/Névtelen.png);
+}
+
+.card[h] {
+    background-image: url(img/profilkep/Nagy\ Szabolcsjpg.jpg);
+}
+
+.card[i] {
+    background-image: url(img/profilkep/Névtelen.png);
+}
+
+.card[a1] {
+    background-image: url(img/profilkep/Szigetvári\ István.jpg);
+}
+
+.card[b1] {
+    background-image: url(img/profilkep/Névtelen.png);
+}
+
+.card[c1] {
+    background-image: url(img/profilkep/Névtelen.png);
+}
+
+.card[d1] {
+    background-image: url(img/profilkep/Névtelen.png);
+}
+
+.card[e1] {
+    background-image: url(img/profilkep/Névtelen.png);
+}
+
+.card[f1] {
+    background-image: url(img/profilkep/Névtelen.png);
 }
 
 .card:hover,
@@ -92,8 +136,11 @@ h2 {
 
 .card-title {
     position: relative;
-    width: max-content;
+    width: 350px;
+    bottom: 30px;
 }
+
+
 
 .card-title::after {
     content: "";
